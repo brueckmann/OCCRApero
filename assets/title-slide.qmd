@@ -1,0 +1,32 @@
+:::: {.title-slide}
+::: {.title}
+{{< meta params.title >}}
+:::
+
+::: {.author}
+{{< meta params.author >}}
+:::
+
+::: {.institute}
+{{< meta params.institute >}}
+:::
+
+::: {.social}
+<i class="bi bi-send-plus" style="color:$link-color"> <a href="mailto:gracia.brueckmann@unibe.ch"> </i> &nbsp; gracia.brueckmann@unibe.ch </a>  &nbsp; | &nbsp;
+<i class="bi bi-globe" style="color:$link-color"> <a href="https://brueckmann.github.io/"> </i> &nbsp; brueckmann.github.io/ </a>
+:::
+
+::: {.conference}
+{{< meta params.conference >}}, {{< meta params.location >}}
+:::
+
+::: {.date}
+{{< meta params.date >}}
+:::
+
+
+::: footer
+
+:::
+
+::::

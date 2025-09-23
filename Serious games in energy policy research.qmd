@@ -1,0 +1,91 @@
+---
+### Header adapted from: https://github.com/giabaio/quarto-slides 
+params:
+   
+   title: "Serious games in energy policy research"
+   shorttitle: "EnsuredEnergy"
+   author: G. Brückmann
+   affiliation: UniBE
+   institute: "[Institute of Political Science](https://www.ipw.unibe.ch/index_eng.html)  & [Oeschger Centre for Climate Change Research](https://www.oeschger.unibe.ch/) | [University of Bern](www.unibe.ch/index_eng.html)"
+   conference: "OCCR Apéro Series"
+   location: "Bern, CH"
+   shortlocation: "Bern" 
+   date: 23 September 2025
+   shortdate: 2025-09-23
+social: |
+   
+   
+     <a href="mailto:gracia.brueckmann@unibe.ch" title="Email me"><i class="bi bi-send-plus" style="color:$link-color"></i></a> &nbsp;
+      &nbsp; <a href="https://brueckmann.github.io/" title="Visit my website"><i class="bi bi-globe" style="color:$link-color"></i></a> &nbsp;
+      &nbsp; <a href="https://github.com/brueckmann" title="Check out my repos"><i class="bi bi-github" style="color:$link-color"></i></a> &nbsp;
+      &nbsp; <a href="https://fediscience.org/@brueckmann/" title="Follow me on Mastodon"><i class="bi bi-mastodon" style="color:$link-color"></i></a> &nbsp;
+      &nbsp; <a href="https://bsky.app/profile/brueckmann.bsky.social/" title="Follow me on Bluesky"><i class="bi bi-bluesky" style="color:$link-color"></i></a> &nbsp; 
+pagetitle: "{{< meta params.shortdate >}}{{< meta params.title >}}"
+   
+format: 
+  revealjs:
+    # Allows academicons and bootstrap icons
+    header-includes: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    theme: ["./assets/title-slide.scss"]
+    slide-number: true
+    preview-links: auto 
+    embed-resources: true
+    css: ./assets/custom.css
+    logo: ./assets/SUREVisual.jpg
+    resources: images
+    footer: |
+        {{< meta params.author >}} ({{< meta params.affiliation >}}) &nbsp; 
+        {{< meta social >}} &nbsp; | &nbsp;
+        {{< meta params.shorttitle >}} &nbsp; | &nbsp;
+        {{< meta params.shortdate >}}
+                  
+bibliography: myreferences.yaml
+csl: american-political-science-review.csl
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| label: setup-R
+#| include: false
+
+source("assets/setup.R")
+
+```
+
+```{r child="assets/title-slide.qmd"}
+#| label: setup_title
+#| include: false
+
+```
+
+------------------------------------------------------------------------
+
+## Serious Game [ensured energy]{.smallcaps}
+
+Serious Games: *Games that do not have entertainment, enjoyment or fun as their primary purpose* [@Michael2005SeriousGG]\citep{Michael2005SeriousGG}. In [ensured energy]{.smallcaps} [(sweet-sure.ch/game/)](https://sweet-sure.ch/game/ "Play Ensured Energy") players manage the Swiss energy system until 2050:
+
+::::: {layout="[ 0.5, -0.05, 0.45 ]"}
+::: {#first-column}
+![](images/game_intro_pol.png){.nostretch fig-align="center" fig-alt="Screenshot ENSURED ENERGY policy intro"}
+:::
+
+::: {#second-column}
+-   Challenged by physical constrains & shocks
+
+-   Feedback on CO~2~, cost, energy imports & land use
+:::
+:::::
+
+
+
+------------------------------------------------------------------------
+
+## References {.scrollable}
+
+::: footer
+🌐 Find all contact information on my website [brueckmann.github.io](brueckmann.github.io). 🌐
+:::

@@ -1,0 +1,38 @@
+/* Progress Pride Progress Bar */
+.progress {
+    height: 7px !important;
+    span {
+      background: linear-gradient(45deg, #FFFFFF, #FFAFC7, #73D7EE, #613915, #000000, #E50000, #FF8D00, #FFEE00, #028121, #24408E, #004CFF, #760088);
+    }
+}
+/*  Source for reainbow code above Allison Koh https://github.com/allisonkoh :) Updated to more progress pride by G.Brückmann on 2025-04-08. */
+
+
+
+.citation {
+    font-size: 0.75em; /* smaller font size for in-text citations */
+}
+
+
+/*  Slide numbers to the bottom-right */ 
+.slide-number, .reveal.has-logo .slide-number {
+  bottom: 10px !important;
+  right: 10px; !important;
+  top: unset !important;
+  background-color: transparent;
+}
+
+
+/*  Logo to top right */ 
+.slide-logo {
+  display: block
+  position: fixed !important;
+  top: 0 !important; /* was  5px; */
+  right: 0 !important; /* was  12px; */
+  max-height: 12% !important;
+  height: 100% !important;
+  width: auto !important;
+  color: $body-color !important;
+}
+/*   from: https://github.com/quarto-dev/quarto-cli/discussions/2766 */ 
+
