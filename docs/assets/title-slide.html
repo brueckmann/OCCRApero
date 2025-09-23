@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>?meta:params.institute</strong></p>
 </div>
 <div class="social">
-<p><i class="bi bi-send-plus" style="color:$link-color"> <a href="mailto:gracia.brueckmann@unibe.ch"> </a></i><a href="mailto:gracia.brueckmann@unibe.ch"> &nbsp; gracia.brueckmann@unibe.ch </a> &nbsp; | &nbsp; <i class="bi bi-globe" style="color:$link-color"> <a href="https://brueckmann.github.io/"> </a></i><a href="https://brueckmann.github.io/"> &nbsp; brueckmann.github.io/ </a></p>
+<p><a href="mailto:gracia.brueckmann@unibe.ch" title="Email me"><i class="bi bi-send-plus" style="color:$link-color"></i></a> <a href="mailto:gracia.brueckmann@unibe.ch">  &nbsp; gracia.brueckmann@unibe.ch </a> &nbsp; | &nbsp; <a href="https://brueckmann.github.io/" title="Visit my website"><i class="bi bi-globe" style="color:$link-color"></i></a> <a href="https://brueckmann.github.io/">  &nbsp; brueckmann.github.io/ </a></p>
 </div>
 <div class="conference">
 <p><strong>?meta:params.conference</strong>, <strong>?meta:params.location</strong></p>
@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/brueckmann\.github\.io\/OCCRApero");
+        var filterRegex = new RegExp("https:\/\/brueckmann\.github\.io\/OCCRApero\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

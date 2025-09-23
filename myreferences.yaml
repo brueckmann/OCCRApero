@@ -14,4 +14,63 @@ references:
   title: "Serious games: Games that educate, train, and inform"
   type: paper-conference
   URL: "https://api.semanticscholar.org/CorpusID:108548774"
+- id: simpson2025
+  abstractNote: The 2015 Paris Agreement on global warming specifies
+    national objectives for the reduction of greenhouse gas emissions.
+    In support of Switzerland's energy and climate strategy for 2050,
+    researchers investigate scenarios for the transition of energy
+    systems towards a higher share of renewables, assessing their
+    social, environmental and economic impact. Their results guide
+    stakeholders and policy makers in designing resilient and
+    sustainable systems. Political scientists use surveys to quantify
+    public acceptance of energy policy, but the complexity and long time
+    horizon of the subject creates difficulties, both for researchers in
+    posing contextually relevant questions, and for respondents in
+    assimilating enough information to give meaningful answers. A
+    population survey was therefore augmented with an online serious
+    game in which players experience an accurate simulation of current
+    and future energy provision and manage transition towards a
+    sustainable future. This interactive environment allows better
+    informed and engaged decisions, and provides richer information on
+    public opinion. In this paper we motivate and describe the design of
+    the game and report initial findings on player characteristics and
+    engagement. We show that a serious game can successfully attract
+    participants from diverse societal groups and highlight the
+    challenge of balancing complexity and entertainment.
+  accessDate: "2025-09-23 14:48:08"
+  archiveID: "arXiv:2508.12799"
+  arXiv: 2508.12799
+  author:
+  - family: Simpson
+    given: Toby
+  - family: Jones
+    given: Saara
+  - family: Brückmann
+    given: Gracia
+  - family: El-Ajou
+    given: Walid
+  - family: Moreira
+    given: Erwan
+  - family: Oltra
+    given: Borja Martinez
+  - family: Krause
+    given: Rolf
+  - family: Multerer
+    given: Michael
+  - family: Stadelmann
+    given: Isabelle
+  issued: 2025  
+  container-title-short: Ensured Energy
+  date: 2025-08-18 2025-08-18
+  DOI: 10.48550/arXiv.2508.12799
+  extra: "arXiv:2508.12799 \\[cs\\]"
+  key: 5MFTJLIY
+  libraryCatalog: arXiv.org
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  repository: arXiv
+  title: "Ensured Energy: A simulation game to elicit preferences around
+    Swiss energy transition pathways"
+  type: article
+  url: "http://arxiv.org/abs/2508.12799"
 ...

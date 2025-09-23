@@ -9,7 +9,6 @@ params:
    institute: "[Institute of Political Science](https://www.ipw.unibe.ch/index_eng.html)  & [Oeschger Centre for Climate Change Research](https://www.oeschger.unibe.ch/) | [University of Bern](www.unibe.ch/index_eng.html)"
    conference: "OCCR Apéro Series"
    location: "Bern, CH"
-   shortlocation: "Bern" 
    date: 23 September 2025
    shortdate: 2025-09-23
 social: |
@@ -43,7 +42,7 @@ format:
         {{< meta params.shortdate >}}
                   
 bibliography: myreferences.yaml
-csl: american-political-science-review.csl
+csl: apa-single-spaced.csl
 editor_options: 
   chunk_output_type: console
 ---
@@ -64,9 +63,12 @@ source("assets/setup.R")
 
 ------------------------------------------------------------------------
 
-## Serious Game [ensured energy]{.smallcaps}
+## Serious Game [ensured energy]{.smallcaps} {.smaller}
+Serious Games
 
-Serious Games: *Games that do not have entertainment, enjoyment or fun as their primary purpose* [@Michael2005SeriousGG]\citep{Michael2005SeriousGG}. In [ensured energy]{.smallcaps} [(sweet-sure.ch/game/)](https://sweet-sure.ch/game/ "Play Ensured Energy") players manage the Swiss energy system until 2050:
+:   *Games that do not have entertainment, enjoyment or fun as their primary purpose.* [@Michael2005SeriousGG]\citep{Michael2005SeriousGG}
+
+In [[ensured energy]{.smallcaps}](https://sweet-sure.ch/game/) players manage the Swiss energy system until 2050:
 
 ::::: {layout="[ 0.5, -0.05, 0.45 ]"}
 ::: {#first-column}
@@ -80,12 +82,18 @@ Serious Games: *Games that do not have entertainment, enjoyment or fun as their 
 :::
 :::::
 
-
-
 ------------------------------------------------------------------------
 
-## References {.scrollable}
+## So ... ? 
 
-::: footer
-🌐 Find all contact information on my website [brueckmann.github.io](brueckmann.github.io). 🌐
-:::
+> To find out who would play a serious game for research, 
+take a look at our pre-print: [arxiv.org/abs/2508.12799](https://arxiv.org/abs/2508.12799v1) [@simpson2025]\citep{simpson2025}
+
+> To play [ensured energy]{.smallcaps} on your own computer,  
+go to [sweet-sure.ch/game/](https://sweet-sure.ch/game/ "Play Ensured Energy")
+
+### References 
+
+<!-- ::: footer -->
+<!-- 🌐 Find all contact information on my website [brueckmann.github.io](brueckmann.github.io). 🌐 -->
+<!-- ::: -->

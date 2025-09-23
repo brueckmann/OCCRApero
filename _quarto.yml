@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Serious games in energy policy research"
-  site-url: "https://brueckmann.github.io/OCCRApero"
+  site-url: "https://brueckmann.github.io/OCCRApero/"
   
 format:
   html:
