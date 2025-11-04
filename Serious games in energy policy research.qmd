@@ -5,8 +5,8 @@ params:
    title: "Serious games in energy policy research"
    shorttitle: "EnsuredEnergy"
    author: G. Brückmann
-   affiliation: UniBE
-   institute: "[Institute of Political Science](https://www.ipw.unibe.ch/index_eng.html)  & [Oeschger Centre for Climate Change Research](https://www.oeschger.unibe.ch/) | [University of Bern](www.unibe.ch/index_eng.html)"
+   affiliation: IPW
+   institute: "[Institute of Political Science (IPW)](https://www.ipw.unibe.ch/index_eng.html)  & [Oeschger Centre for Climate Change Research](https://www.oeschger.unibe.ch/) | [University of Bern](www.unibe.ch/index_eng.html)"
    conference: "OCCR Apéro Series"
    location: "Bern, CH"
    date: 23 September 2025
